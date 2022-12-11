@@ -15,7 +15,8 @@ Program ini adalah program sederhana daftar nilai mahasiswa yang dibuat dengan m
 # Penjelasan 
 
 ## 1. Membuat class </b>
-	* Langkah pertama adalah membuat/mendeklarasikan sebuah _class Mahasiswa():_ yang didalamnya terdapat atribut NIM, Nama, nilai tugas, nilai UTS dan nilai UAS. Untuk mendeklarasikan sebuah class didalam OOP kita harus gunakan def__init__ dan juga self.
+	* Langkah pertama adalah membuat/mendeklarasikan sebuah 'class Mahasiswa():' yang didalamnya terdapat atribut NIM, Nama, nilai tugas, nilai UTS dan nilai UAS. Untuk mendeklarasikan sebuah class didalam OOP kita harus gunakan 'def__init__' dan juga 'self'.
+
 ```Python
 def __init__(self, nim, nama, tugas, uts, uas):
         self.nim = nim
@@ -25,7 +26,8 @@ def __init__(self, nim, nama, tugas, uts, uas):
         self.uas = uas
 ```
 ## 2. Membuat Menu Tabel
-    * Untuk membuat table sebuah menu kita dapat menggunakan fungsi menutabel(): yang didalamnya terdapat program sebuah menu yang dapat di input.
+    * Untuk membuat table sebuah menu kita dapat menggunakan fungsi 'menutabel():' yang didalamnya terdapat program sebuah menu yang dapat di input.
+
 ```Python
 def menutabel():
         print("=" * 35)
@@ -39,7 +41,8 @@ def menutabel():
         print("=" * 35)
 ```
 ## 3. Menambahkan Data
-    * Disini kita perlu menambahkan method seperti menambahkan, menampilkan, menghapus, dan mengubah data mahasiswa. Pada sebuah method tambah() ini berfungsi untuk menambahkan data. Dalam method ini kita menggunakan append() agar data yang terakhir ditambahkan ada di urutan list paling akhir.
+    * Disini kita perlu menambahkan 'method' seperti **menambahkan**, **menampilkan**, **menghapus**, dan **mengubah** data mahasiswa. Pada sebuah method 'tambah()' ini berfungsi untuk *menambahkan* *data*. Dalam method ini kita menggunakan 'append()' agar data yang terakhir ditambahkan ada di urutan list paling akhir.
+
 ```Python
 def tambah(self, nim, nama, tugas, uts, uas):
         data.nim.append(nim)
@@ -49,7 +52,8 @@ def tambah(self, nim, nama, tugas, uts, uas):
         data.uas.append(uas)
 ```
 ## 4. Membuat Method Tambah
-    * Disini kita perlu menambahkan method seperti menambahkan, menampilkan, menghapus, dan mengubah data mahasiswa. Pada sebuah method tambah() ini berfungsi untuk menambahkan data. Dalam method ini kita menggunakan append() supaya data yang terakhir ditambahkan, ada di urutan list paling akhir
+    * Disini kita perlu menambahkan method seperti **menambahkan**, **menampilkan**, **menghapus**, dan **mengubah** data mahasiswa. Pada sebuah method 'tambah()' ini berfungsi untuk menambahkan data. Dalam method ini kita menggunakan 'append()' supaya data yang terakhir ditambahkan, ada di urutan list paling akhir
+
 ```Python
  def tambah(self, nim, nama, tugas, uts, uas):
         data.nim.append(nim)
@@ -59,7 +63,8 @@ def tambah(self, nim, nama, tugas, uts, uas):
         data.uas.append(uas)
 ```
 ## 5. Membuat Method Lihat
-    * Method lihat() Berguna untuk menampilkan seluruh data yang telah ditambahkan. Bilamana data tersebut belum diinput/data tersebut sudah terhapus, Maka akan keluar ouput dengan tulisan "TIDAK ADA DATA". Kita menggunakan for loop untuk menampilkan banyaknya data. Nantinya data akan ditampilkan sebanyak n kali.
+    * Method 'lihat()' Berguna untuk menampilkan seluruh data yang telah ditambahkan. Bilamana data tersebut belum diinput/data tersebut sudah terhapus, Maka akan keluar ouput dengan tulisan **"TIDAK** **ADA** **DATA"**. Kita menggunakan **for** **loop** untuk menampilkan banyaknya data. Nantinya data akan ditampilkan sebanyak n kali.
+
 ```Python
 def lihat(self):
         for i in range(len(data.nama)):
@@ -73,6 +78,7 @@ def lihat(self):
 ```
 ## 6. Membuat Method Ubah
     * Method ubah() ini berfungsi sebagai menu mengubah data yang telah diinput, Inputan tersebut didalamnya terdapat atribut nama, Sedangkan untuk penginputan sebuah nim, tugas, uts, dan uas dapat kita ubah sesuai kebutuhan.
+
 ```Python
 def ubah(self, nim, nama, tugas, uts, uas):
         self.nim[no] = nim
@@ -83,6 +89,7 @@ def ubah(self, nim, nama, tugas, uts, uas):
 ```
 ## 7. Membuat Method Hapus
     * Source Code dibawah adalah untuk penghapusan sebuah data pada program yang sebelumnya telah diinput. Dan inputan dari kodingan ini berdasarkan "nama" yang sebelumnya telah diinput.
+
 ```Python
  def hapus(self):
         del self.nim[no]
@@ -94,12 +101,14 @@ def ubah(self, nim, nama, tugas, uts, uas):
 ## 8. Membuat Dictionary
 
     * Mendeklarasikan satu dictionary kosong sebagai tempat menyimpan data-data yang sudah kita input. Disini ada 5 list kosong yang nanti isinya terdapat NIM, Nama, nilai tugas, nilai UTS dan nilai UAS.
+
 ```Python
 data = Mahasiswa([], [], [], [], [])
 ```
 ## 9. Menjalankan program
 
     * Untuk menjalankan program sama seperti tugas sebelumnya,kita bisa input melalui masing-masing methods, seperti pada sebuah while loop yang didalamnya Terdapat conditional seperti source code dibawah ini.
+
 ```Python
 while True:
     menu = input("(1)Tambah data, (2)Tampilkan data, (3)Ubah data, (4)Hapus data, (5)Keluar: ")
@@ -159,6 +168,7 @@ while True:
 ```
 ## 10. Menghentikan Program
     * Jika data sudah selesai diinput, Pilih menu ke (Keluar) yaitu "5", Maka program secara otomatis akan berhenti.
+
 ```Python
     elif menu == "5":
         print("\nTHANK YOU :)\n")
