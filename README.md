@@ -14,7 +14,7 @@ Program ini adalah program sederhana daftar nilai mahasiswa yang dibuat dengan m
 
 # Penjelasan 
 
-## 1. Membuat class </b>
+<b> 1. Membuat class </b>
 	* Langkah pertama adalah membuat/mendeklarasikan sebuah 'class Mahasiswa():' yang didalamnya terdapat atribut NIM, Nama, nilai tugas, nilai UTS dan nilai UAS. Untuk mendeklarasikan sebuah class didalam OOP kita harus gunakan 'def__init__' dan juga 'self'.
 
 ```Python
@@ -25,7 +25,7 @@ def __init__(self, nim, nama, tugas, uts, uas):
         self.uts = uts
         self.uas = uas
 ```
-## 2. Membuat Menu Tabel
+<b> 2. Membuat Menu Tabel </b>
     * Untuk membuat table sebuah menu kita dapat menggunakan fungsi 'menutabel():' yang didalamnya terdapat program sebuah menu yang dapat di input.
 
 ```Python
