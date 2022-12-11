@@ -7,10 +7,10 @@
 # Source Code
 
 Program ini adalah program sederhana daftar nilai mahasiswa yang dibuat dengan mengaplikasikan penggunaan class.
-![img 1](labpy07/GAMBAR 8/1.png)
-![img 2](labpy07/GAMBAR 8/2.png)
-![img 3](labpy07/GAMBAR 8/3.png)
-![img 4](labpy07/GAMBAR 8/4.png)
+![img 1](GAMBAR8/1.png)
+![img 2](GAMBAR8/2.png)
+![img 3](GAMBAR8/3.png)
+![img 4](GAMBAR8/4.png)
 
 # Penjelasan 
 
