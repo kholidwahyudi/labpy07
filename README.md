@@ -3,13 +3,17 @@
 <P> NAMA	: KHOLID WAHYUDI
 <p> KELAS	: TI.22.B2
 <p> MATA KULIAH	: BAHASA PEMROGRAMAN(PYTHON)
+
 # Source Code
+
 Program ini adalah program sederhana daftar nilai mahasiswa yang dibuat dengan mengaplikasikan penggunaan class.
 ![img 1](GAMBAR 8/1.png)
 ![img 2](GAMBAR 8/2.png)
 ![img 3](GAMBAR 8/3.png)
 ![img 4](GAMBAR 8/4.png)
+
 # Penjelasan 
+
 1. Membuat class </b>
 	* Langkah pertama adalah membuat/mendeklarasikan sebuah class Mahasiswa(): yang didalamnya terdapat atribut NIM, Nama, nilai tugas, nilai UTS dan nilai UAS. Untuk mendeklarasikan sebuah class didalam OOP kita harus gunakan def__init__ dan juga self.
 ```Python
